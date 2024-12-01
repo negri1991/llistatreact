@@ -54,19 +54,17 @@ function MenuPrincipal() {
                             <li><a className="nav-link text-light font-weight-bold text-uppercase px-3 dropdown-item" href="galeria.html">
                                 <i className="fa-regular fa-image" style={{ paddingRight: '10px' }}></i>Galeria
                             </a></li>
-                            <li><a className="active nav-link text-light font-weight-bold text-uppercase px-3 dropdown-item" href="llistat.html">
-                                Llistat
-                            </a></li>
-                            <li><a className="nav-link text-light font-weight-bold text-uppercase px-3 dropdown-item" href="contacte.html">
-                                <i className="fa-solid fa-address-book" style={{ paddingRight: '10px' }}></i>Contacte
-                            </a></li>
+                            <li><a class="nav-link text-light font-weight-bold text-uppercase px-3 dropdown-item"
+                                href="https://llistatreact.vercel.app"><i class="iconoReact"></i>Llistat</a></li>
+                            <li><a class="nav-link text-light font-weight-bold text-uppercase px-3 dropdown-item"
+                                href="https://eacxavi.vercel.app"><i class="iconoAngular"></i>Contacte</a></li>
                         </ul>
                     </li>
                 </ul>
                 <form>
                     <div className="input-group">
                         <input type="text" className="form-control" placeholder="Cerca" aria-label="Cerca" />
-                        <button className="btn bg-light input-group-text" id="search-button" type="button" onClick={() => window.location.href='cercle.html'}>
+                        <button className="btn bg-light input-group-text" id="search-button" type="button" onClick={() => window.location.href = 'cercle.html'}>
                             <i className="fa-solid fa-magnifying-glass"></i>
                         </button>
                     </div>
